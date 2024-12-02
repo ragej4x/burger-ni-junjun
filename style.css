@@ -77,7 +77,6 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
-/* Featured Best Sellers Banner */
 .featured-banner {
     text-align: center;
     margin-bottom: 30px;
@@ -95,6 +94,7 @@ nav a:hover {
     gap: 20px;
     padding: 10px;
     scroll-behavior: smooth;
+    
 }
 
 .banner-item {
@@ -104,6 +104,9 @@ nav a:hover {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--primary-color);
+    
+
 }
 
 .banner-item img {
@@ -111,6 +114,8 @@ nav a:hover {
 
     width: 100%;
     display: block;
+
+
 }
 
 /* Menu Items */
@@ -188,7 +193,6 @@ nav a:hover {
 footer {
     background-color: #FFB347;
     color: rgb(255, 255, 255);
-    text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
@@ -211,7 +215,7 @@ footer p {
     overflow: hidden;
 }
 .image-banner {
-    
+    background-color: #FFB347;
     margin-top: 10px;
     margin-left: 250%; 
     width: 100px;
@@ -221,7 +225,6 @@ footer p {
     cursor: pointer;
     outline: none; 
     position: relative; 
-    background-color: var(--primary-color);
 }
 
 .image-banner:focus {
@@ -259,3 +262,14 @@ footer p {
 .image-banner:focus .phrase{
     opacity: 0;
 }
+
+
+
+.image{
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
