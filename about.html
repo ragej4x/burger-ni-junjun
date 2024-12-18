@@ -8,12 +8,18 @@
 </head>
 
 <body style="position: fixed;">
+
+    
     <header>
         <div class="logo"><a href="index.html"><img style="width: 150px; height: max-content; " src="src/logo.png" alt="Logo"></a></div>
         <h1 style="height: 100px; font-size: 50px; margin-top:  50px;" >Burger Ni Jun Jun</h1>
     </header>
     
-    <section class="menu" id="about">
+
+    <div id="container"  style="z-index: -1;">
+
+    
+    <section class="menu" id="about" style="color: var(--light-color);">
 
         
     <h3>About us</h3>
@@ -21,20 +27,25 @@
         <p>Our juicy, flavorful patties are cooked to perfection, ensuring a tender, juicy bite with every mouthful. We top them with a medley of fresh, high-quality ingredients, including crisp lettuce, ripe tomatoes, and red onions. Our secret sauce, a harmonious blend of spices and herbs, adds a unique flavor dimension to each bite.</p>
 
     </div>
-    <div style="text-align: center;">
+    <div style="text-align: center; z-index: 10; color: var(--light-color);" >
         <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Our team</p>
         <p>Jun jun adan</p>
         <p>jayfferson Adan</p>
         <p>Chy Adan Adan</p>
 
 
-
+        <div style="z-index: -5; position: absolute; margin-top: -800px;">
+            <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                <source  style="z-index: -5; ;" src="src/bg.mp4" type="video/mp4">
+                Sorry, your browser does not support HTML5 video.
+                </video>
+        </div>
 
 
 
     </div>
     </section>
-
+</div>
     
 </body>
 
